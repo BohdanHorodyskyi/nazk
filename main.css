@@ -7,6 +7,10 @@
     font-family: Ubuntu;
     src: url(fonts/Ubuntu-Regular.ttf);
 }
+@font-face{
+    font-family: 'ubuntu bold';
+    src: url(fonts/Ubuntu-Bold.ttf);
+}
 body{
     width: 100%;
     height: 3216px;
@@ -81,7 +85,7 @@ border-radius: 18px;
     
 width: 69px;
 height: 20px;
-margin-top: 15px;
+margin-top: 17px;
 font-family: Ubuntu;
 font-style: normal;
 font-weight: bold;
@@ -134,7 +138,10 @@ color: #E0E9F4;
 height: 64.22px;
 display: flex;
 flex-wrap: nowrap;
-background-image: url(images/logo.png);
+/* background-image: url(images/logo.svg); */
+background-size: cover;
+background-position: center;
+margin: 14px 0 18px;
 }
 .lang{
     width: 34px;
@@ -280,6 +287,7 @@ font-weight: bold;
 font-size: 42px;
 line-height: 48px;
 text-align: right;
+margin-right: 8px;
 }
 .number3{
     width: 133px;
@@ -299,6 +307,7 @@ font-weight: bold;
 font-size: 42px;
 line-height: 48px;
 text-align: right;
+margin-right: 12px;
 }
 .stat2{
     width: 284px;
@@ -351,7 +360,9 @@ background: #2D9CDF;
 box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 }
 .item2_text{
+    display: block;
     width: 135px;
+    text-decoration: none;
 height: 16px;
 font-family: Ubuntu;
 font-style: normal;
@@ -379,6 +390,8 @@ font-size: 14px;
 line-height: 16px;
 color: #366785;
 margin: 3px 7px 5px 8px;
+display: block;
+text-decoration: none;
 }
 .item4{
     width: 153px;
@@ -388,6 +401,7 @@ box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 margin: 13px 14px 11px 0;
 }
 .item4_text{
+    display: block;
     width: 135px;
 height: 16px;
 font-family: Ubuntu;
@@ -397,6 +411,7 @@ font-size: 14px;
 line-height: 16px;
 color: #FFFFFF;
 margin: 3px 10px 5px 8px;
+text-decoration: none;
 }
 .item5{
     width: 153px;
@@ -406,6 +421,8 @@ background: #B5E5FF;
 box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 }
 .item5_text{
+    text-decoration: none;
+    display: block;
     width: 138px;
 height: 16px;
 margin: 3px 7px 5px 8px;
@@ -467,6 +484,8 @@ line-height: 20px;
 color: #000000;
 }
 .readmore{
+    display: block;
+    text-decoration: none;
     width: 95px;
 height: 18px;
 font-family: Ubuntu;
@@ -484,6 +503,7 @@ color: #234463;
     display: flex;
 }
 .dots_1{
+    display: block;
     width: 32px;
 height: 32px;
 margin: 8.3px 22px 8.3px 10px;
@@ -495,6 +515,9 @@ height: 9px;
 background: #C4C4C4;
 margin: 11px 16px 12px 0;
 border-radius: 50%;
+}
+.dots_6{
+    display: block;
 }
 .dots_4{
     width: 12px;
@@ -509,6 +532,8 @@ margin: 10px 16px 10px 0;
     margin: 0px 0 0 100px;
 }
 .getNews{
+    display: block;
+    text-decoration: none;
     width: 291px;
 height: 16px;
 font-family: Open Sans;
@@ -531,7 +556,11 @@ font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 22px;
-
+outline: none;
+background-repeat: no-repeat;
+background-image: url(images/Vector\ \(4\).svg);
+background-size: 16px 18px;
+background-position: 175px 9px;
 color: #234463;
 }
 .services{
@@ -545,6 +574,7 @@ color: #234463;
 height: 522px;
 border: 3px solid #2596D9;
 margin-right: 39px;
+background-image: url(images/Line\ 23.svg);
 }
 .servText{
     width: 1208px;
@@ -564,6 +594,8 @@ margin-bottom: 29px;
 color: #000000;
 }
 .servText_search{
+    outline: none;
+    border: none;
     width: 578px;
 height: 48px;
 background: #F3F3F3;
@@ -586,7 +618,10 @@ font-weight: bold;
 font-size: 14px;
 line-height: 16px;
 margin-right: 33px;
-color: #2596D9;
+color: black;
+}
+.radio11{
+    color: #2596D9;
 }
 .content{
     margin: 48px 0 126px;
@@ -607,7 +642,7 @@ margin-bottom: 47px;
     width: 276px;
 height: 35px;
 margin: 7px 0 12px 16px;
-font-family: Ubuntu;
+font-family: 'ubuntu bold';
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
@@ -634,7 +669,7 @@ height: 119px;
     width: 506px;
 height: 76px;
 margin: 0px 0 0px 10px;
-font-family: Ubuntu;
+font-family: 'ubuntu bold';
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
@@ -664,7 +699,7 @@ margin-bottom: 79px;
 .item3_header{
     width: 555px;
 height: 35px;
-font-family: Ubuntu;
+font-family: 'ubuntu bold';
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
@@ -695,7 +730,7 @@ height: 35px;
 left: 1028px;
 top: 1042px;
 margin: 0px 0 0px 10px;
-font-family: Ubuntu;
+font-family: 'ubuntu bold';
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
@@ -725,7 +760,7 @@ margin: 0px auto;
 .back_search{
     width: 1204px;
 height: 254px;
-background-image: url(images/logo.png);
+background-image: url(images/logo.svg);
 background-repeat: no-repeat;
 background-position: 950px 0px;
 background-size: 146px 214px;
@@ -779,6 +814,8 @@ margin-bottom: 11px;
 height: 42px;
 background: #FFFFFF;
 border-radius: 6px;
+border: none;
+outline: none;
 }
 .search_center2{
     width: 112px;
@@ -792,6 +829,8 @@ color: #FFFFFF;
 margin-bottom: 11px;
 }
 .search_but_2{
+    border: none;
+outline: none;
 width: 347px;
 height: 42px;
 background: #FFFFFF;
@@ -821,6 +860,8 @@ line-height: 18px;
 text-align: center;
 margin-right: 29px;
 color: #000000;
+border: none;
+outline: none;
 }
 .or{ 
     margin-top: 10px;
@@ -834,6 +875,8 @@ text-align: center;
 color: #FFFFFF;
 }
 .observ{
+    display: block;
+    text-decoration: none;
 font-family: Ubuntu;
 font-style: normal;
 font-weight: bold;
@@ -866,6 +909,7 @@ height: 411px;
 .rectangle{
     width: 6px;
 height: 34px;
+margin-right: 7px;
 background: #FFF84C;
 }
 .dis1_title_top{
@@ -1008,7 +1052,7 @@ margin: 0 auto;
 display: flex;
 }
 .info{
-    margin-right: 300px;
+    margin-right: 200px;
 }
 .info_title{
     width: 361px;
@@ -1045,6 +1089,8 @@ color: #747474;
     margin-right: 22px;
 }
 .face_text{
+    display: block;
+    text-decoration: none;
     width: 133px;
 height: 15px;
 font-family: Ubuntu;
@@ -1056,6 +1102,8 @@ color: #3B5998;
 margin: 7px 0 0 18px;
 }
 .twit_text{
+    display: block;
+    text-decoration: none;
     width: 119px;
 height: 15px;
 margin: 7px 0 0 18px;
@@ -1067,6 +1115,8 @@ line-height: 15px;
 color: #1DA1F2;
 }
 .you_text{
+    display: block;
+    text-decoration: none;
     width: 195px;
 height: 15px;
 font-family: Ubuntu;
@@ -1089,6 +1139,7 @@ padding: 5px;
 .icon3{
     width: 18px;
     height: 18px;
+    margin-top: 2px;
 }
 .tel_text{
     width: 201px;
@@ -1100,10 +1151,21 @@ font-size: 13px;
 line-height: 15px;
 color: #0088CC;
 margin: 6px 0 0 18px;
+display: block;
+    text-decoration: none;
+}
+.twitter-tweet{
+    width: 512px;
+height: 620px;
+}
+.scr{
+    width: 512px;
+height: 620px;
 }
 .screen{
     width: 512px;
 height: 620px;
+display: block;
 }
 .footer{
     width: 100%;
@@ -1163,6 +1225,7 @@ margin: 103px 25px 0 0;
     width: 12px;
     height: 12px;
     margin: 105px 20px 0 0;
+    display: block;
 }
 .pages4{
     width: 12px;
@@ -1183,33 +1246,45 @@ border: 1.2px solid #B9E0FF;
 .government{
     display: flex;
     margin-bottom: 28px;
+    justify-content: center
+}
+.government > div{
+    margin-right: 0px 20px;
 }
 .gover1{
-    width: 127px;
-height: 16px;
+    /* width: 127px;
+height: 16px; */
 font-family: Ubuntu;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 16px;
 color: #1E5F94;
-margin-right: 26px;
-margin-left: 326px;
+/* margin-right: 26px;
+margin-left: 326px; */
+display: block;
+text-decoration: none;
+margin-right: 20px;
 }
 .gover2{
-    width: 160px;
-height: 16px;
+    display: block;
+    text-decoration: none;
+    /* width: 160px;
+height: 16px; */
 font-family: Ubuntu;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 16px;
 color: #1E5F94;
-margin-right: 42px;
+/* margin-right: 42px; */
+margin-right: 20px;
 }
 .gover3{
-    width: 192px;
-height: 16px;
+    text-decoration: none;
+    display: block;
+    /* width: 192px;
+height: 16px; */
 font-family: Ubuntu;
 font-style: normal;
 font-weight: normal;
@@ -1248,7 +1323,10 @@ padding-left: 10px;
 color: #FFFFFF;
 border-radius: 40px;
 }
-
+#app{
+    width: 400px;
+    height: 300px;
+}
 
 
 
@@ -1349,8 +1427,7 @@ border-radius: 40px;
     width: 850px;
     }
     .mainPhoto{
-    width: 300px;
-    height: 230px;
+    min-width: 300px;
     margin-right: 10px;
     }
     .date{
@@ -1551,7 +1628,7 @@ border-radius: 40px;
     height: 607px;
     }
     .info{
-        margin-right: 150px;
+        margin-right: 70px;
     }
     .info_title{
         width: 361px;
@@ -1638,9 +1715,17 @@ border-radius: 40px;
     color: #0088CC;
     margin: 6px 0 0 18px;
     }
-    .screen1{
+    /* .screen1{
         width: 412px;
     height: 480px;
+    } */
+    blockquote{
+        width: 512px;
+height: 620px;
+    }
+    .twitter-tweet{
+        width: 512px;
+height: 620px;
     }
     .footer{
         min-height: 100px;
